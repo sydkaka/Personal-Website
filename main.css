@@ -33,6 +33,12 @@ li {
  font-weight: bold;
 }
 
+.a2 {
+    font-family:  monospace;
+    font-size: 26px;
+    color: black;
+   }
+
 .f1 {
     font-family:  monospace;
    }
@@ -41,6 +47,7 @@ li {
     width: 100%;
     height: 700px;
     object-fit: cover;
+    opacity: 0.9;
 }
 .img2{
     width: 80%;
@@ -54,4 +61,46 @@ li {
     object-fit: cover;
     border-radius: 20px;
 }
+
+.img4{
+    width: 70%;
+    height: 65%;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.img5{
+    width: 5%;
+    height: 5%;
+    object-fit: fill;
+    border-radius: 20px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .a4:link {
+    color: darkgray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .a4:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .a4:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .a4:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 
