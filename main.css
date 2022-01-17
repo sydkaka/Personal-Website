@@ -78,6 +78,12 @@ li {
     object-fit: fill;
     border-radius: 20px;
 }
+.img6{
+    width: 70%;
+    height: 65%;
+    object-fit: fill;
+    border-radius: 8px;
+}
 .centered {
     position: absolute;
     top: 50%;
