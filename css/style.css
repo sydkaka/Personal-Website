@@ -367,3 +367,7 @@ button:focus,
     text-align: center;
   }
 }
+
+.viewers-count {
+  text-align: center;
+}
