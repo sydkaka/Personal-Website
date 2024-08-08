@@ -371,3 +371,8 @@ button:focus,
 .viewers-count {
   text-align: center;
 }
+
+.viewers-count-tag {
+  color: #eb0b0b;
+  font-weight: 600;
+}
