@@ -1,4 +1,17 @@
 <div class="container text-center mt-5">
+    <div *ngIf="weather">
+        <div class="weather-container">
+            <span class="location">📍 {{ weather.name }}</span>
+            <span class="time">⏰ {{ time }}</span>
+            <span class="temp">🌡️ {{ weather.main.temp }}°F</span>
+            <span class="description">
+                <img [src]="'https://openweathermap.org/img/wn/' + weather.weather[0].icon + '@2x.png'" 
+                    alt="Weather icon" class="weather-icon" />
+                {{ weather.weather[0].description | titlecase }}
+            </span>
+        </div>
+   </div>
+    
     <!-- Profile Picture -->
     <img src="assets/images/yongdingsun.jpeg" alt="Yongding Sun" class="profile-photo" />
 

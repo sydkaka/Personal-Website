@@ -8,6 +8,7 @@ import { HomeComponent } from './features/home/home/home.component';
 import { PhotoComponent } from './features/photo/photo.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,9 +19,10 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
